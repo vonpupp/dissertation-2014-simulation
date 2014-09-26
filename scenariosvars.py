@@ -25,13 +25,13 @@ __author__ = "Albert De La Fuente Vigliotti"
 # These variables are used within both scripts with relative paths references!
 
 trace_scenarios = [
-    'hybrid1',
-    'hybrid2',
-    'hybrid3',
-    'hybrid4',
-    'hybrid5',
+#    'hybrid1',
+#    'hybrid2',
+#    'hybrid3',
+#    'hybrid4',
+#    'hybrid5',
     'hybrid6',
-    'hybrid7',
+#    'hybrid7',
 #    '../planetlab-workload-traces/20110409/146-179_surfsnel_dsl_internl_net_root',
 #    '../planetlab-workload-traces/20110409/host4-plb_loria_fr_uw_oneswarm',
 #    '../planetlab-workload-traces/20110420/plgmu4_ite_gmu_edu_rnp_dcc_ufjf',
@@ -54,8 +54,8 @@ algorithm_scenarios = [
 ]
 
 # Setup the scenarios
-host_scenarios = range(100, 110, 10)
-simulation_scenarios = range(1, 31)
+host_scenarios = range(10, 20, 10)
+simulation_scenarios = range(1, 2)
 vms_start = 16
 vms_stop = 304
 vms_step = 16
