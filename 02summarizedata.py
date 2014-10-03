@@ -58,7 +58,7 @@ if __name__ == "__main__":
     outdir = get_default_arg('results', args.outdir)
 
     # Get only the filenames (remove prepending paths)
-    trace_scenarios = map(lambda trace: trace.split('/')[-1], trace_scenarios)
+    #trace_scenarios = map(lambda trace: trace.split('/')[-1], trace_scenarios)
 
     p = plot.GraphGenerator(indir)
     pgg = plot.PlacementGraphGenerator(indir)
@@ -69,28 +69,33 @@ if __name__ == "__main__":
                 lambda: defaultdict(dict)
             )
         ))
-    for trace in trace_scenarios:
-        for host in host_scenarios:
-            per_algorithm_summary = {}
+#    for trace in trace_scenarios:
+    for host in host_scenarios:
+        per_algorithm_summary = {}
+        for algorithm in algorithm_scenarios:
+            #fname = 'simulation-' + trace + '-' + algorithm + '-' + str(host).zfill(3)
+            fname = 'simulation-' + '-' + algorithm + '-' + str(host).zfill(3)
+            print('processing {}...'.format(fname))
+            d = sd.SummarizeData(indir)
+
+            d.load_pm_scenario(fname)
+            per_algorithm_summary[algorithm] = d
+            d.csv_write()
+
+        p.set_data(per_algorithm_summary)
+        #p.plot_all_algorithm_comparison(host, trace)
+        p.plot_all_algorithm_comparison(host)
+
+        for vms in range(vms_start, vms_stop, vms_step):
             for algorithm in algorithm_scenarios:
-                fname = 'simulation-' + trace + '-' + algorithm + '-' + str(host).zfill(3)
+                #fname = 'summarized-placement-' + trace + '-' + algorithm + '-' + str(host).zfill(3) + '-' + str(vms).zfill(3)
+                fname = 'summarized-placement-' + '-' + algorithm + '-' + str(host).zfill(3) + '-' + str(vms).zfill(3)
                 print('processing {}...'.format(fname))
-                d = sd.SummarizeData(indir)
-
-                d.load_pm_scenario(fname)
-                per_algorithm_summary[algorithm] = d
-                d.csv_write()
-
-            p.set_data(per_algorithm_summary)
-            p.plot_all_algorithm_comparison(host, trace)
-
-            for vms in range(vms_start, vms_stop, vms_step):
-                for algorithm in algorithm_scenarios:
-                    fname = 'summarized-placement-' + trace + '-' + algorithm + '-' + str(host).zfill(3) + '-' + str(vms).zfill(3)
-                    print('processing {}...'.format(fname))
-                    d = sd.SummarizePlacementData(indir)
-                    d.load_placement(fname)
-                    per_algorithm_placement[host][vms][algorithm][trace] = d
+                d = sd.SummarizePlacementData(indir)
+                d.load_placement(fname)
+                #per_algorithm_placement[host][vms][algorithm][trace] = d
+                per_algorithm_placement[host][vms][algorithm] = d
 #                    per_algorithm_placement[vms][algorithm][trace][host] = d
     pgg.set_data(per_algorithm_placement)
-    pgg.plot_all_algorithm_comparison(algorithm_scenarios, trace_scenarios, host, vms_stop - vms_step)
+    #pgg.plot_all_algorithm_comparison(algorithm_scenarios, trace_scenarios, host, vms_stop - vms_step)
+    pgg.plot_all_algorithm_comparison(algorithm_scenarios, host, vms_stop - vms_step)

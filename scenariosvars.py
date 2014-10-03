@@ -24,13 +24,13 @@ __author__ = "Albert De La Fuente Vigliotti"
 
 # These variables are used within both scripts with relative paths references!
 
-trace_scenarios = [
+#trace_scenarios = [
 #    'hybrid1',
 #    'hybrid2',
 #    'hybrid3',
 #    'hybrid4',
 #    'hybrid5',
-    'hybrid6',
+#    'hybrid6',
 #    'hybrid7',
 #    '../planetlab-workload-traces/20110409/146-179_surfsnel_dsl_internl_net_root',
 #    '../planetlab-workload-traces/20110409/host4-plb_loria_fr_uw_oneswarm',
@@ -43,7 +43,7 @@ trace_scenarios = [
 #    '../planetlab-workload-traces/20110306/planetlab1_dojima_wide_ad_jp_princeton_contdist',
 #    '../planetlab-workload-traces/planetlab-selected/planetlab-20110409-filtered_planetlab1_s3_kth_se_sics_peerialism',
 #    '../planetlab-workload-traces/20110322/planetlab-wifi-01_ipv6_lip6_fr_inria_omftest'
-]
+#]
 
 algorithm_scenarios = [
     'EnergyUnawareStrategyPlacement',
