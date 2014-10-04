@@ -74,7 +74,7 @@ if __name__ == "__main__":
         per_algorithm_summary = {}
         for algorithm in algorithm_scenarios:
             #fname = 'simulation-' + trace + '-' + algorithm + '-' + str(host).zfill(3)
-            fname = 'simulation-' + '-' + algorithm + '-' + str(host).zfill(3)
+            fname = 'simulation-' + algorithm + '-' + str(host).zfill(3)
             print('processing {}...'.format(fname))
             d = sd.SummarizeData(indir)
 
@@ -89,7 +89,7 @@ if __name__ == "__main__":
         for vms in range(vms_start, vms_stop, vms_step):
             for algorithm in algorithm_scenarios:
                 #fname = 'summarized-placement-' + trace + '-' + algorithm + '-' + str(host).zfill(3) + '-' + str(vms).zfill(3)
-                fname = 'summarized-placement-' + '-' + algorithm + '-' + str(host).zfill(3) + '-' + str(vms).zfill(3)
+                fname = 'summarized-placement-' + algorithm + '-' + str(host).zfill(3) + '-' + str(vms).zfill(3)
                 print('processing {}...'.format(fname))
                 d = sd.SummarizePlacementData(indir)
                 d.load_placement(fname)
@@ -98,4 +98,5 @@ if __name__ == "__main__":
 #                    per_algorithm_placement[vms][algorithm][trace][host] = d
     pgg.set_data(per_algorithm_placement)
     #pgg.plot_all_algorithm_comparison(algorithm_scenarios, trace_scenarios, host, vms_stop - vms_step)
-    pgg.plot_all_algorithm_comparison(algorithm_scenarios, host, vms_stop - vms_step)
+    # Barchart figure
+    #pgg.plot_all_algorithm_comparison(algorithm_scenarios, host, vms_stop - vms_step)
