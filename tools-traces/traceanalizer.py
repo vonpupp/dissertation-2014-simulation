@@ -5,7 +5,7 @@
 import sys
 sys.path.append("../pyCloudSim/")
 
-from distsim.model.traceanalize import TraceAnalize
+from pycloudsim.model.traceanalize import TraceAnalize
 import os
 
 

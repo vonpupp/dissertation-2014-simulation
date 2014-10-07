@@ -6,7 +6,7 @@ import sys
 sys.path.append("../pyCloudSim/")
 
 #from distsim.model.tracefilter import TraceFilter
-import distsim.model.tracefilter as tf
+import pycloudsim.model.tracefilter as tf
 
 
 if __name__ == "__main__":

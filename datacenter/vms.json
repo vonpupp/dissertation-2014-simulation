@@ -1,0 +1,24 @@
+{
+    "vms": [
+        {
+            "id": "1",
+            "flavor": "small",
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/146-179_surfsnel_dsl_internl_net_root",
+                "mem": "planetlab-workload-traces/20110420/plgmu4_ite_gmu_edu_rnp_dcc_ufjf",
+                "disk": "planetlab-workload-traces/20110409/host4-plb_loria_fr_uw_oneswarm",
+                "net": "planetlab-workload-traces/20110309/planetlab1_fct_ualg_pt_root"
+            }
+        },
+        {
+            "id": "2",
+            "flavor": "small",
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110420/plgmu4_ite_gmu_edu_rnp_dcc_ufjf",
+                "mem": "planetlab-workload-traces/20110409/146-179_surfsnel_dsl_internl_net_root",
+                "disk": "planetlab-workload-traces/20110409/host4-plb_loria_fr_uw_oneswarm",
+                "net": "planetlab-workload-traces/20110409/146-179_surfsnel_dsl_internl_net_root"
+            }
+        }
+    ]
+}

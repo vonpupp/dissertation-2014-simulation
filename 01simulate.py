@@ -25,6 +25,8 @@ __author__ = "Albert De La Fuente Vigliotti"
 import argparse
 import os
 from scenariosvars import *
+import imp
+import sys
 
 def get_default_arg(default_value, arg):
     if arg is None:
@@ -57,9 +59,21 @@ if __name__ == "__main__":
     if secnetgraph == 1:
         params += '-secnetgraph 1 '
 
-    # Change current directory
+    # Get CWD
     abspath = os.path.abspath(__file__)
     dname = os.path.dirname(abspath)
+    pycloudsim_path = dname + '/' + 'pyCloudSim'
+
+    # Import and initialize the logging facility
+#    sys.path.append(pycloudsim_path)
+#    import pycloudsim.common as common
+#    config = common.read_and_validate_config()
+#    common.init_logging(
+#        config['log_directory'],
+#        'simulation.log',
+#        int(config['log_level']))
+
+    # Change current directory
     os.chdir(dname + '/' + 'pyCloudSim')
 
     # Start the simulation
