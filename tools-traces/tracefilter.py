@@ -25,13 +25,16 @@ if __name__ == "__main__":
 #    data = tf.filter_equals(data, 'mean', 35)
 #    data = tf.filter_equals(data, 'mean', 45)
 
-    data = tf.filter_range(t.data, 'std', 35, 45)
+    data = tf.filter_range(t.data, 'mean', 30, 40)
+
+#    data = tf.filter_range(t.data, 'std', 35, 45)
 #    data = tf.filter_equals(data, 'mean', 25)
 #    data = tf.filter_equals(data, 'mean', 35)
-    data = tf.filter_equals(data, 'mean', 45)
-    print data
+#    data = tf.filter_equals(data, 'mean', 45)
+    for filename in data['file']:
+        print filename
 #    t.filter_rows_by_range('var', 1000, 1500)
 #    t.csv_write()
 #    print data
-    print t.filtered_data
+#    print t.filtered_data
     print('done')
