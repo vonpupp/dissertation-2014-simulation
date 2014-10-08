@@ -54,9 +54,9 @@ algorithm_scenarios = [
 ]
 
 # Setup the scenarios
-host_scenarios = range(1, 11, 1)
+host_scenarios = range(10, 11, 1)
 simulation_scenarios = range(1, 2)
-vms_start = 1
+vms_start = 10
 vms_stop = 11
 vms_step = 1
 
