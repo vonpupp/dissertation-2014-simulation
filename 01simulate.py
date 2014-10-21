@@ -62,7 +62,7 @@ if __name__ == "__main__":
     # Get CWD
     abspath = os.path.abspath(__file__)
     dname = os.path.dirname(abspath)
-    pycloudsim_path = dname + '/' + 'pyCloudSim'
+    pycloudsim_path = os.path.join(dname, 'pyCloudSim')
 
     # Import and initialize the logging facility
 #    sys.path.append(pycloudsim_path)
@@ -74,7 +74,11 @@ if __name__ == "__main__":
 #        int(config['log_level']))
 
     # Change current directory
-    os.chdir(dname + '/' + 'pyCloudSim')
+    os.chdir(pycloudsim_path)
+
+    conf = 'pycloudsim.conf'
+    if len(sys.argv) > 1:
+        conf = os.path.join(dname, sys.argv[1])
 
     # Start the simulation
 #    for trace in trace_scenarios:
@@ -82,8 +86,10 @@ if __name__ == "__main__":
         for simulation in simulation_scenarios:
             #command = 'python pycloudsim.py -t {} -o {} -pm {} -vma {} -vmo {} -vme {} {}'\
             #        .format(trace, dname + 'results', host, vms_start, vms_stop, vms_step, params)
-            command = 'python pycloudsim.py -o {} -pm {} -vma {} -vmo {} -vme {} {}'\
-                    .format(dname + 'results', host, vms_start, vms_stop, vms_step, params)
+#            command = 'python pycloudsim.py -c {} -o {} -pm {} -vma {} -vmo {} -vme {} {}'\
+            command = 'python pycloudsim.py -c {} -pm {} -vma {} -vmo {} -vme {} {}'\
+                .format(conf,
+                        host, vms_start, vms_stop, vms_step, params)
             os.system(command)
 
     print('done')
