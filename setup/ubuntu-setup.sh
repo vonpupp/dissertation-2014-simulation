@@ -1,6 +1,7 @@
 # INSTALL PACKAGES
 sudo aptitude update
-sudo aptitude -y -q install --without-recommends liblapack3 gfortran libglpk36 \
+sudo aptitude -y -q install --without-recommends liblapack3 gfortran \
+    libglpk36 libglpk-dev \
     libxml2-dev libxslt1-dev python-dev \
 
 # CREATE PIP CACHE
