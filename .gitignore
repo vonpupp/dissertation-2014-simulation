@@ -40,3 +40,7 @@ nosetests.xml
 
 planetlab-workload-traces
 pyCloudSim
+
+# Ignore virtualenv related folders
+env
+.pipcache
