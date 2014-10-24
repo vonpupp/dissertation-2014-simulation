@@ -16,80 +16,92 @@
 # limitations under the License.
 
 """
-2014 Globecom Simulations
+2014 Simulations
 """
 __version__ = "0.2"
 __author__ = "Albert De La Fuente Vigliotti"
 
 
-import argparse
 import os
-from scenariosvars import *
-import imp
+import scenariosvars
 import sys
+import time
 
-def get_default_arg(default_value, arg):
-    if arg is None:
-        return default_value
-    else:
-        return arg
+
+class Simulate():
+    def __init__(self):
+        self.seu = 1
+        self.sksp = 1
+        self.skspmem = 1
+        self.sec = 1
+        self.secnet = 1
+        self.skspnetgraph = 0
+        self.secnetgraph = 0
+
+    def gen_params(self):
+
+        params = ''
+        if self.seu == 1:
+            params += '-seu 1 '
+        if self.sksp == 1:
+            params += '-sksp 1 '
+        if self.skspmem == 1:
+            params += '-skspmem 1 '
+        if self.skspnetgraph == 1:
+            params += '-skspnetgraph 1 '
+        if self.sec == 1:
+            params += '-sec 1 '
+        if self.secnet == 1:
+            params += '-secnet 1 '
+        if self.secnetgraph == 1:
+            params += '-secnetgraph 1 '
+        self.params = params
+
+    def change_cwd(self):
+        # Get CWD
+        self.abspath = os.path.abspath(__file__)
+        self.dname = os.path.dirname(self.abspath)
+        self.pycloudsim_path = os.path.join(self.dname, 'pyCloudSim')
+
+        # Import and initialize the logging facility
+    #    sys.path.append(pycloudsim_path)
+    #    import pycloudsim.common as common
+    #    config = common.read_and_validate_config()
+    #    common.init_logging(
+    #        config['log_directory'],
+    #        'simulation.log',
+    #        int(config['log_level']))
+
+        # Change current directory
+        os.chdir(self.pycloudsim_path)
+
+    def parse_args(self):
+        self.conf = 'pycloudsim.conf'
+        if len(sys.argv) > 1:
+            self.conf = os.path.join(self.dname, sys.argv[1])
+
+    def run(self):
+        self.gen_params()
+        self.change_cwd()
+        self.parse_args()
+
+        for host in scenariosvars.host_scenarios:
+            command = []
+            for simulation in scenariosvars.simulation_scenarios:
+                command = 'python pycloudsim.py -c {} -pm {} -vma {} -vmo {} -vme {} {}'\
+                    .format(self.conf, host,
+                            scenariosvars.vms_start,
+                            scenariosvars.vms_stop,
+                            scenariosvars.vms_step,
+                            self.params)
+                os.system(command)
+
 
 if __name__ == "__main__":
-    seu = 1
-    sksp = 1
-    skspmem = 1
-    sec = 1
-    secnet = 1
-    skspnetgraph = 0
-    secnetgraph = 0
-
-    params = ''
-    if seu == 1:
-        params += '-seu 1 '
-    if sksp == 1:
-        params += '-sksp 1 '
-    if skspmem == 1:
-        params += '-skspmem 1 '
-    if skspnetgraph == 1:
-        params += '-skspnetgraph 1 '
-    if sec == 1:
-        params += '-sec 1 '
-    if secnet == 1:
-        params += '-secnet 1 '
-    if secnetgraph == 1:
-        params += '-secnetgraph 1 '
-
-    # Get CWD
-    abspath = os.path.abspath(__file__)
-    dname = os.path.dirname(abspath)
-    pycloudsim_path = os.path.join(dname, 'pyCloudSim')
-
-    # Import and initialize the logging facility
-#    sys.path.append(pycloudsim_path)
-#    import pycloudsim.common as common
-#    config = common.read_and_validate_config()
-#    common.init_logging(
-#        config['log_directory'],
-#        'simulation.log',
-#        int(config['log_level']))
-
-    # Change current directory
-    os.chdir(pycloudsim_path)
-
-    conf = 'pycloudsim.conf'
-    if len(sys.argv) > 1:
-        conf = os.path.join(dname, sys.argv[1])
-
-    # Start the simulation
-#    for trace in trace_scenarios:
-    for host in host_scenarios:
-        for simulation in simulation_scenarios:
-            #command = 'python pycloudsim.py -t {} -o {} -pm {} -vma {} -vmo {} -vme {} {}'\
-            #        .format(trace, dname + 'results', host, vms_start, vms_stop, vms_step, params)
-#            command = 'python pycloudsim.py -c {} -o {} -pm {} -vma {} -vmo {} -vme {} {}'\
-            command = 'python pycloudsim.py -c {} -pm {} -vma {} -vmo {} -vme {} {}'\
-                .format(conf,
-                        host, vms_start, vms_stop, vms_step, params)
-            os.system(command)
-
-    print('done')
+    start_time = time.time()
+    s = Simulate()
+    try:
+        s.run()
+    except KeyboardInterrupt:
+        print('Canceled by user')
+    print("--- {} seconds ---".format(time.time() - start_time))
