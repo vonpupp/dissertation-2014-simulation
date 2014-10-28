@@ -30,13 +30,14 @@ import time
 
 class Simulate():
     def __init__(self):
-        self.seu = 1
-        self.sksp = 1
-        self.skspmem = 1
-        self.sec = 1
-        self.secnet = 1
+        self.seu          = 1
+        self.sksp         = 1
+        self.skspmem      = 1
+        self.sec          = 1
+        self.secnet       = 1
+        # Not used
         self.skspnetgraph = 0
-        self.secnetgraph = 0
+        self.secnetgraph  = 0
 
     def gen_params(self):
 
@@ -88,6 +89,7 @@ class Simulate():
         for host in scenariosvars.host_scenarios:
             command = []
             for simulation in scenariosvars.simulation_scenarios:
+                #import ipdb; ipdb.set_trace() # BREAKPOINT
                 command = 'python pycloudsim.py -c {} -pm {} -vma {} -vmo {} -vme {} {}'\
                     .format(self.conf, host,
                             scenariosvars.vms_start,
