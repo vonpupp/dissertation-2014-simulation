@@ -25,7 +25,7 @@ if __name__ == "__main__":
 #    data = tf.filter_equals(data, 'mean', 35)
 #    data = tf.filter_equals(data, 'mean', 45)
 
-    data = tf.filter_range(t.data, 'mean', 30, 45)
+    data = tf.filter_range(t.data, 'mean', 15, 20)
 
 #    data = tf.filter_range(t.data, 'std', 35, 45)
 #    data = tf.filter_equals(data, 'mean', 25)

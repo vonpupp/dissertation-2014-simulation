@@ -1,0 +1,2004 @@
+{
+    "vms": [
+        {
+            "flavor": "small", 
+            "id": "1", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110303/metis_mcs_suffolk_edu_ yale_p4p", 
+                "disk": "planetlab-workload-traces/20110303/planetlab-1_elisa_cpsc_ucalgary_ca_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110303/plgmu4_ite_gmu_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110303/gschembra4_diit_unict_it_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "2", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110303/planetlab1_cs_stevens-tech_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110303/planetlabpc1_upf_edu_irisaple_wup", 
+                "mem": "planetlab-workload-traces/20110303/pli1-pa-5_hpl_hp_com_root", 
+                "net": "planetlab-workload-traces/20110303/planetlab02_just_edu_jo_ rnp_dcc_ufjf"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "3", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110303/plab-1_sinp_msu_ru_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110303/peace_informatik_rwth-aachen_de_tsinghua_xyz", 
+                "mem": "planetlab-workload-traces/20110303/planet-lab-node1_netgroup_uniroma2_it_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110303/planetlab-4_imperial_ac_uk_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "4", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110303/planetlab2_bgu_ac_il_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110303/planetlab-2_fokus_fraunhofer_de_princeton_codeen", 
+                "mem": "planetlab-workload-traces/20110303/planetlab-05_cs_princeton_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110303/planetlab2_elet_polimi_it_google_highground"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "5", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110303/planetlab2_eecs_wsu_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110303/planetlab1_ecs_vuw_ac_nz_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110303/planet02_csc_ncsu_edu_root", 
+                "net": "planetlab-workload-traces/20110303/planetlab-2_ece_iastate_edu_root"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "6", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110303/eve_ee_ntu_edu_tw_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110303/planetlab1_unl_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110303/planetdev02_fm_intel_com_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110303/planetlabpc1_upf_edu_root"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "7", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110303/planetlab-n1_wand_net_nz_ yale_p4p", 
+                "disk": "planetlab-workload-traces/20110303/planet1_scs_cs_nyu_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110303/freedom_informatik_rwth-aachen_de_tsinghua_xyz", 
+                "net": "planetlab-workload-traces/20110303/planetlab03_mpi-sws_mpg_de_arizona_owl"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "8", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110303/nodeb_howard_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110303/planetlab2_rutgers_edu_princeton_codeen", 
+                "mem": "planetlab-workload-traces/20110303/planetlab4_rutgers_edu_root", 
+                "net": "planetlab-workload-traces/20110303/planet1_prakinf_tu-ilmenau_de_princeton_codeen"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "9", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110303/node1_planetlab_albany_edu_root", 
+                "disk": "planetlab-workload-traces/20110303/planetlab-1_cs_colostate_edu_root", 
+                "mem": "planetlab-workload-traces/20110303/planetlab1_citadel_edu_princeton_codeen", 
+                "net": "planetlab-workload-traces/20110303/planetlab1_pop-rs_rnp_br_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "10", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110303/planetlab1_cs_ucl_ac_uk_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110303/merkur_planetlab_haw-hamburg_de_ yale_p4p", 
+                "mem": "planetlab-workload-traces/20110303/planetdev02_fm_intel_com_rnp_dcc_ufjf", 
+                "net": "planetlab-workload-traces/20110303/planet-lab-node2_netgroup_uniroma2_it_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "11", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110303/planetlab03_mpi-sws_mpg_de_arizona_stork_install", 
+                "disk": "planetlab-workload-traces/20110303/mtuplanetlab2_cs_mtu_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110303/planetlab-1_sjtu_edu_cn_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110303/pl1-higashi_ics_es_osaka-u_ac_jp_tsinghua_xyz"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "12", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110303/planetlab1_csuohio_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110303/planet1_scs_stanford_edu_rnp_dcc_ufjf", 
+                "mem": "planetlab-workload-traces/20110303/ttu1-1_nodes_planet-lab_org_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110303/planetlab01_sys_virginia_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "13", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110303/146-179_surfsnel_dsl_internl_net_tsinghua_xyz", 
+                "disk": "planetlab-workload-traces/20110303/planetlab-2_sysu_edu_cn_ ucr_slice2", 
+                "mem": "planetlab-workload-traces/20110303/planetlab1_cse_msu_edu_princeton_codeen", 
+                "net": "planetlab-workload-traces/20110303/planetlab1_williams_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "14", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110303/146-179_surfsnel_dsl_internl_net_root", 
+                "disk": "planetlab-workload-traces/20110303/pl4_unm_edu_root", 
+                "mem": "planetlab-workload-traces/20110303/planetlab1_fit_vutbr_cz_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110325/planetlab13_millennium_berkeley_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "15", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110325/pl1_6test_edu_cn_ cyprus_CFW", 
+                "disk": "planetlab-workload-traces/20110325/planetlab-1_cmcl_cs_cmu_edu_arizona_owl", 
+                "mem": "planetlab-workload-traces/20110325/planetlab3_upc_es_princeton_codeen", 
+                "net": "planetlab-workload-traces/20110325/aladdin_planetlab_extranet_uni-passau_de_ uofathens_zoi"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "16", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110325/planet-lab-node1_netgroup_uniroma2_it_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110325/planetlab2_c3sl_ufpr_br_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110325/mercury_silicon-valley_ru_tsinghua_xyz", 
+                "net": "planetlab-workload-traces/20110325/planetlab1_cnds_jhu_edu_princeton_codeen"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "17", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110325/planetlab1_cs_uoi_gr_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110325/pl2_pku_edu_cn_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110325/planetlab1_eas_asu_edu_princeton_codeen", 
+                "net": "planetlab-workload-traces/20110325/planetlab-05_cs_princeton_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "18", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110325/planetlab2_elet_polimi_it_google_highground", 
+                "disk": "planetlab-workload-traces/20110325/planetlab2_wiwi_hu-berlin_de_uofathens_zoi", 
+                "mem": "planetlab-workload-traces/20110325/pl4_unm_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110325/planetlab2_c3sl_ufpr_br_ uofathens_zoi"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "19", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110325/planetlab2_eas_asu_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110325/onelab-1_fhi-fokus_de_ uofathens_zoi", 
+                "mem": "planetlab-workload-traces/20110325/planetlab3_eecs_northwestern_edu_princeton_codeen", 
+                "net": "planetlab-workload-traces/20110325/planetlab1_bgu_ac_il_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "20", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110325/planetlab2_dtc_umn_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110325/planetlab2_exp-math_uni-essen_de_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110325/planetlab1_win_trlabs_ca_root", 
+                "net": "planetlab-workload-traces/20110325/pl1_rcc_uottawa_ca_ uofathens_zoi"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "21", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110325/dschinni_planetlab_extranet_uni-passau_de_ uofathens_zoi", 
+                "disk": "planetlab-workload-traces/20110325/pl2_planet_cs_kent_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110325/planetlab4_csres_utexas_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110325/planetlab1_wiwi_hu-berlin_de_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "22", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110325/planetlab3_comp_nus_edu_sg_ yale_p4p", 
+                "disk": "planetlab-workload-traces/20110325/planetlab2_netlab_uky_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110325/planetlab2_itwm_fhg_de_arizona_beta", 
+                "net": "planetlab-workload-traces/20110325/planet1_cs_rit_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "23", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110325/freedom_informatik_rwth-aachen_de_tsinghua_xyz", 
+                "disk": "planetlab-workload-traces/20110325/planet-lab2_cs_ucr_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110325/planetlab05_cs_washington_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110325/peace_informatik_rwth-aachen_de_arizona_beta"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "24", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110325/iraplab2_iralab_uni-karlsruhe_de_ uofathens_zoi", 
+                "disk": "planetlab-workload-traces/20110325/planet2_pnl_nitech_ac_jp_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110325/host2_planetlab_informatik_tu-darmstadt_de_tsinghua_xyz", 
+                "net": "planetlab-workload-traces/20110325/147-179_surfsnel_dsl_internl_net_arizona_owl"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "25", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110325/planetlab-1_elisa_cpsc_ucalgary_ca_ uofathens_zoi", 
+                "disk": "planetlab-workload-traces/20110325/planetlab2_ece_ucdavis_edu_ yale_p4p", 
+                "mem": "planetlab-workload-traces/20110325/planetlab2_cs_uoregon_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110325/planetlab-03_vt_nodes_planet-lab_org_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "26", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110325/planetlab-2_sjtu_edu_cn_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110325/planetlab6_cs_uiuc_edu_irisaple_HEAP", 
+                "mem": "planetlab-workload-traces/20110325/planetlab3_eecs_umich_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110325/planet1_prakinf_tu-ilmenau_de_princeton_codeen"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "27", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110325/planetlab2_cs_ucla_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110325/146-179_surfsnel_dsl_internl_net_arizona_beta", 
+                "mem": "planetlab-workload-traces/20110325/planetlab-02_vt_nodes_planet-lab_org_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110325/planetlab2_cnds_jhu_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "28", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110325/planetlab2_wiwi_hu-berlin_de_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110325/planetlab2_georgetown_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110325/planetlab1_eas_asu_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110325/planetlab1_win_trlabs_ca_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "29", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110325/planet1_pnl_nitech_ac_jp_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110325/planetlab01_cs_tcd_ie_root", 
+                "mem": "planetlab-workload-traces/20110325/planetlab2_millennium_berkeley_edu_princeton_codeen", 
+                "net": "planetlab-workload-traces/20110325/planetlab1_acis_ufl_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "30", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110325/planetlab-1_imperial_ac_uk_irisaple_HEAP", 
+                "disk": "planetlab-workload-traces/20110325/planetlab2_aston_ac_uk_yale_p4p", 
+                "mem": "planetlab-workload-traces/20110325/planetlab-2_cs_colostate_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110325/onelab11_pl_sophia_inria_fr_irisaple_HEAP"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "31", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110325/planetlab2_informatik_uni-wuerzburg_de_ uofathens_zoi", 
+                "disk": "planetlab-workload-traces/20110325/planetlab1_cs_colorado_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110325/onelab09_pl_sophia_inria_fr_irisaple_wup", 
+                "net": "planetlab-workload-traces/20110325/orval_infonet_fundp_ac_be_ uofathens_zoi"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "32", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110325/planet-lab-node2_netgroup_uniroma2_it_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110325/planetlab-1_cmcl_cs_cmu_edu_arizona_beta", 
+                "mem": "planetlab-workload-traces/20110325/planetlab-1_sjtu_edu_cn_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110325/ttu1-1_nodes_planet-lab_org_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "33", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110325/planetlab2_mnlab_cti_depaul_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110325/planetlab2_aston_ac_uk_irisaple_HEAP", 
+                "mem": "planetlab-workload-traces/20110325/planet3_cs_ucsb_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110325/pl1_sos_info_hiroshima-cu_ac_jp_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "34", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110325/planetlab1_cs_uoi_gr_root", 
+                "disk": "planetlab-workload-traces/20110325/planetlab1_koganei_wide_ad_jp_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110325/host3_planetlab_informatik_tu-darmstadt_de_arizona_beta", 
+                "net": "planetlab-workload-traces/20110325/planetlab3_cs_st-andrews_ac_uk_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "35", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110325/onelab09_pl_sophia_inria_fr_ cwru_DNS", 
+                "disk": "planetlab-workload-traces/20110325/planetlab2_cs_umass_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110325/pl1_planetlab_uvic_ca_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110325/planetlab1_byu_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "36", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110325/planetlab-2_sjtu_edu_cn_ uofathens_zoi", 
+                "disk": "planetlab-workload-traces/20110325/planetlab2_cs_uit_no_princeton_codeen", 
+                "mem": "planetlab-workload-traces/20110325/planetlab2_ucsd_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110325/adam_ee_ntu_edu_tw_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "37", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110325/planetlab6_cs_duke_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110325/planetlab2_rd_tut_fi_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110325/planetlab-1_dis_uniroma1_it_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110325/planetlab1_cs_pitt_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "38", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110325/planetlab-2_pdl_nudt_edu_cn_ uofathens_zoi", 
+                "disk": "planetlab-workload-traces/20110411/netapp6_cs_kookmin_ac_kr_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110411/planetlab1_hiit_fi_arizona_nest", 
+                "net": "planetlab-workload-traces/20110411/pl2_eng_monash_edu_au_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "39", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/planet02_csc_ncsu_edu_arizona_owl", 
+                "disk": "planetlab-workload-traces/20110411/planetlab-2_cs_colostate_edu_ uofathens_zoi", 
+                "mem": "planetlab-workload-traces/20110411/plgmu4_ite_gmu_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110411/vn4_cse_wustl_edu_princeton_codeen"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "40", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/planetlab2_poly_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110411/planetlab-1_cmcl_cs_cmu_edu_arizona_owl", 
+                "mem": "planetlab-workload-traces/20110411/kupl1_ittc_ku_edu_root", 
+                "net": "planetlab-workload-traces/20110411/planetlab1_hiit_fi_howard_p2psip"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "41", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/pl2_cs_yale_edu_umn_net_tools", 
+                "disk": "planetlab-workload-traces/20110411/vn5_cse_wustl_edu_princeton_codeen", 
+                "mem": "planetlab-workload-traces/20110411/ds-pl2_technion_ac_il_root", 
+                "net": "planetlab-workload-traces/20110411/planetlab1_cs_ucla_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "42", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/pl2_csl_utoronto_ca_root", 
+                "disk": "planetlab-workload-traces/20110411/ds-pl1_technion_ac_il_arizona_owl", 
+                "mem": "planetlab-workload-traces/20110411/planet2_att_nodes_planet-lab_org_root", 
+                "net": "planetlab-workload-traces/20110411/righthand_eecs_harvard_edu_princeton_codeen"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "43", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/planetlab3_hiit_fi_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110411/onelab11_pl_sophia_inria_fr_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110411/kostis_di_uoa_gr_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110411/host2_planetlab_informatik_tu-darmstadt_de_princeton_codeen"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "44", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/planetlab1_eas_asu_edu_princeton_codeen", 
+                "disk": "planetlab-workload-traces/20110411/planet6_cs_ucsb_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110411/planetlab2_aston_ac_uk_rnp_dcc_ufjf", 
+                "net": "planetlab-workload-traces/20110411/planetlab2_elet_polimi_it_google_highground"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "45", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/ds-pl1_technion_ac_il_howard_p2psip", 
+                "disk": "planetlab-workload-traces/20110411/planetlab1_upm_ro_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110411/pl2_ucs_indiana_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110411/planetlab2_eecs_wsu_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "46", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/planetlab2_eas_asu_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110411/netapp7_cs_kookmin_ac_kr_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110411/plab2_nec-labs_com_root", 
+                "net": "planetlab-workload-traces/20110411/planetlab4_wail_wisc_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "47", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/onelab-1_fhi-fokus_de_ uofathens_zoi", 
+                "disk": "planetlab-workload-traces/20110411/planetlab04_cnds_unibe_ch_princeton_codeen", 
+                "mem": "planetlab-workload-traces/20110411/planetlab1_eecs_wsu_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110411/planetlab7_cs_duke_edu_ rnp_dcc_ufjf"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "48", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/pl1_rcc_uottawa_ca_ uofathens_zoi", 
+                "disk": "planetlab-workload-traces/20110411/planetlab1_netmedia_gist_ac_kr_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110411/planetlab1_ecs_vuw_ac_nz_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110411/planetlab1_wiwi_hu-berlin_de_princeton_codeen"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "49", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/plnode-03_gpolab_bbn_com_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110411/jupiter_cs_brown_edu_arizona_digdug2", 
+                "mem": "planetlab-workload-traces/20110411/planetlab7_flux_utah_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110411/planetlab3_csee_usf_edu_princeton_codeen"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "50", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/planetlab4_csres_utexas_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110411/planetlab01_tkn_tu-berlin_de_ uofathens_zoi", 
+                "mem": "planetlab-workload-traces/20110411/pl2_planet_cs_kent_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110411/planetlab3_cs_st-andrews_ac_uk_umn_net_tools"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "51", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/orbpl1_rutgers_edu_princeton_codeen", 
+                "disk": "planetlab-workload-traces/20110411/pli1-pa-6_hpl_hp_com_ uofathens_zoi", 
+                "mem": "planetlab-workload-traces/20110411/planetlab04_mpi-sws_mpg_de_arizona_owl", 
+                "net": "planetlab-workload-traces/20110411/planetlab2_informatik_uni-leipzig_de_ uofathens_zoi"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "52", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/pl2_6test_edu_cn_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110411/planetlab4_eecs_umich_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110411/stella_planetlab_ntua_gr_princeton_codeen", 
+                "net": "planetlab-workload-traces/20110411/vn4_cse_wustl_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "53", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/planetlab-2_cs_uic_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110411/planet1_scs_cs_nyu_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110411/iraplab2_iralab_uni-karlsruhe_de_ uofathens_zoi", 
+                "net": "planetlab-workload-traces/20110411/host2_planetlab_informatik_tu-darmstadt_de_tsinghua_xyz"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "54", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/planetlab2_netmedia_gist_ac_kr_princeton_codeen", 
+                "disk": "planetlab-workload-traces/20110411/ple02_fc_univie_ac_at_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110411/pli1-pa-4_hpl_hp_com_ uofathens_zoi", 
+                "net": "planetlab-workload-traces/20110411/planetlab-2_webedu_ccu_edu_tw_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "55", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/plgmu5_ite_gmu_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110411/planetlab-1_elisa_cpsc_ucalgary_ca_ uofathens_zoi", 
+                "mem": "planetlab-workload-traces/20110411/planetlab2_inf_ethz_ch_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110411/pl1-alblf_homeip_net_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "56", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/pli2-pa-2_hpl_hp_com_ uofathens_zoi", 
+                "disk": "planetlab-workload-traces/20110411/planet11_csc_ncsu_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110411/pli2-pa-1_hpl_hp_com_ uofathens_zoi", 
+                "net": "planetlab-workload-traces/20110411/planetlab2_aston_ac_uk_ufmg_p2ptv"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "57", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/planetlab2_cs_uoregon_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110411/miranda_planetlab_cs_umd_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110411/planetlab2_ece_ucdavis_edu_ yale_p4p", 
+                "net": "planetlab-workload-traces/20110411/planetlab-1_cmcl_cs_cmu_edu_howard_p2psip"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "58", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/pli2-pa-3_hpl_hp_com_root", 
+                "disk": "planetlab-workload-traces/20110411/planetlab3_wail_wisc_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110411/planetlab4_cs_uiuc_edu_princeton_codeen", 
+                "net": "planetlab-workload-traces/20110411/pl1_planet_cs_kent_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "59", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/planetlab3_eecs_umich_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110411/planetlab-1_pdl_nudt_edu_cn_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110411/planetlab1_hiit_fi_root", 
+                "net": "planetlab-workload-traces/20110411/planetlab-02_vt_nodes_planet-lab_org_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "60", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/planetlab6_cs_duke_edu_ uofathens_zoi", 
+                "disk": "planetlab-workload-traces/20110411/planetlab1_eas_asu_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110411/planetlab-1_webedu_ccu_edu_tw_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110411/planetlab2_georgetown_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "61", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/node2_planetlab_mathcs_emory_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110411/planet1_pnl_nitech_ac_jp_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110411/planetlab3_williams_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110411/planetlab1_acis_ufl_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "62", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/planetlab2_aston_ac_uk_yale_p4p", 
+                "disk": "planetlab-workload-traces/20110411/planetlab2_cs_pitt_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110411/planetlab1_cs_ucl_ac_uk_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110411/ricepl-2_cs_rice_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "63", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/ds-pl1_technion_ac_il_arizona_nest", 
+                "disk": "planetlab-workload-traces/20110411/onelab11_pl_sophia_inria_fr_umn_net_tools", 
+                "mem": "planetlab-workload-traces/20110411/pli1-pa-5_hpl_hp_com_ uofathens_zoi", 
+                "net": "planetlab-workload-traces/20110411/rochefort_infonet_fundp_ac_be_root"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "64", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/planetlab2_netmedia_gist_ac_kr_umn_net_tools", 
+                "disk": "planetlab-workload-traces/20110411/planet2_scs_stanford_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110411/planetlab1_cs_colorado_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110411/onelab10_pl_sophia_inria_fr_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "65", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/planetlab2_acis_ufl_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110411/planetlab1_cs_otago_ac_nz_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110411/chimay_infonet_fundp_ac_be_ uofathens_zoi", 
+                "net": "planetlab-workload-traces/20110411/planetlab4_williams_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "66", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/planet-lab1_ufabc_edu_br_root", 
+                "disk": "planetlab-workload-traces/20110411/host2_planetlab_informatik_tu-darmstadt_de_root", 
+                "mem": "planetlab-workload-traces/20110411/planet3_prakinf_tu-ilmenau_de_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110411/planetlab4_cs_uoregon_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "67", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/plgmu5_ite_gmu_edu_ uofathens_zoi", 
+                "disk": "planetlab-workload-traces/20110411/planetlab1_csuohio_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110411/planet-lab2_cs_ucr_edu_umn_net_tools", 
+                "net": "planetlab-workload-traces/20110411/planetlab2_mnlab_cti_depaul_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "68", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/planet3_cs_ucsb_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110411/planetlab2_ecs_vuw_ac_nz_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110411/planetlab2_aston_ac_uk_irisaple_HEAP", 
+                "net": "planetlab-workload-traces/20110411/planetlab-1_amst_nodes_planet-lab_org_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "69", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/iraplab1_iralab_uni-karlsruhe_de_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110411/planetlab3_cs_st-andrews_ac_uk_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110411/planetlab3_eecs_northwestern_edu_root", 
+                "net": "planetlab-workload-traces/20110411/planetlab1_cs_uit_no_princeton_codeen"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "70", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/planetlab2_cesnet_cz_howard_p2psip", 
+                "disk": "planetlab-workload-traces/20110411/planetlab04_mpi-sws_mpg_de_arizona_nest", 
+                "mem": "planetlab-workload-traces/20110411/planetlabtwo_ccs_neu_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110411/onelab09_pl_sophia_inria_fr_ cwru_DNS"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "71", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/planetlab5_williams_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110411/ple2_cesnet_cz_ uofathens_zoi", 
+                "mem": "planetlab-workload-traces/20110411/planetlab5_csee_usf_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110411/planetlab1_byu_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "72", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/planetlab1_utt_fr_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110411/planetlab6_cs_duke_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110411/planetlab5_csres_utexas_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110411/planetlab2_rd_tut_fi_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "73", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/server2_planetlab_iit-tech_net_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110411/planetlab1_williams_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110411/ricepl-1_cs_rice_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110411/pl1_rcc_uottawa_ca_google_highground"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "74", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110411/planetlab-1_cse_ohio-state_edu_howard_p2psip", 
+                "disk": "planetlab-workload-traces/20110306/plnode-03_gpolab_bbn_com_root", 
+                "mem": "planetlab-workload-traces/20110306/metis_mcs_suffolk_edu_ yale_p4p", 
+                "net": "planetlab-workload-traces/20110306/gschembra4_diit_unict_it_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "75", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110306/planetlab2_cs_stevens-tech_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110306/plab-1_sinp_msu_ru_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110306/kupl1_ittc_ku_edu_root", 
+                "net": "planetlab-workload-traces/20110306/75-130-96-12_static_oxfr_ma_charter_com_tsinghua_xyz"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "76", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110306/peace_informatik_rwth-aachen_de_tsinghua_xyz", 
+                "disk": "planetlab-workload-traces/20110306/planetlab01_mpi-sws_mpg_de_arizona_owl", 
+                "mem": "planetlab-workload-traces/20110306/planetlab01_dis_unina_it_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110306/planetlab01_cs_washington_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "77", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110306/metis_mcs_suffolk_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110306/planetlab05_mpi-sws_mpg_de_upmc_ts", 
+                "mem": "planetlab-workload-traces/20110306/planetdev02_fm_intel_com_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110306/planetlab-2_ssvl_kth_se_rnp_dcc_ufjf"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "78", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110306/planetlab04_mpi-sws_mpg_de_upmc_ts", 
+                "disk": "planetlab-workload-traces/20110306/planetlab1_cnds_jhu_edu_root", 
+                "mem": "planetlab-workload-traces/20110306/stella_planetlab_ntua_gr_princeton_codeen", 
+                "net": "planetlab-workload-traces/20110306/freedom_informatik_rwth-aachen_de_tsinghua_xyz"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "79", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110306/planetlab1_ucsd_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110306/planetlab1_otemachi_wide_ad_jp_princeton_codeen", 
+                "mem": "planetlab-workload-traces/20110306/planetlab-node1_it-sudparis_eu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110306/plab1_cs_ust_hk_ rnp_dcc_ufjf"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "80", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110306/planetlab1-saopaulo_lan_redclara_net_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110306/planetlab3_netmedia_gist_ac_kr_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110306/evghu7_colbud_hu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110306/planet2_scs_stanford_edu_root"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "81", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110306/planetlab2_ci_pwr_wroc_pl_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110306/planetlab1_cs_ucl_ac_uk_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110306/planetlab2_eecs_umich_edu_root", 
+                "net": "planetlab-workload-traces/20110306/merkur_planetlab_haw-hamburg_de_ yale_p4p"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "82", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110306/planetlab1_eecs_wsu_edu_google_highground", 
+                "disk": "planetlab-workload-traces/20110306/pl1-higashi_ics_es_osaka-u_ac_jp_tsinghua_xyz", 
+                "mem": "planetlab-workload-traces/20110306/planetlab2_fem_tu-ilmenau_de_upmc_ts", 
+                "net": "planetlab-workload-traces/20110306/planetlab2_cs_uoi_gr_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "83", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110306/planetlab1_csuohio_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110306/planetlab1_cse_msu_edu_princeton_codeen", 
+                "mem": "planetlab-workload-traces/20110306/146-179_surfsnel_dsl_internl_net_tsinghua_xyz", 
+                "net": "planetlab-workload-traces/20110306/planetlab3_csail_mit_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "84", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110306/planetlab-2_sysu_edu_cn_ ucr_slice2", 
+                "disk": "planetlab-workload-traces/20110409/netapp6_cs_kookmin_ac_kr_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110306/planetlab1_byu_edu_root", 
+                "net": "planetlab-workload-traces/20110409/pl2_eng_monash_edu_au_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "85", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/planet02_csc_ncsu_edu_arizona_owl", 
+                "disk": "planetlab-workload-traces/20110409/planetlab2_pjwstk_edu_pl_ cambridge_spe24", 
+                "mem": "planetlab-workload-traces/20110409/planetlab-1_ssvl_kth_se_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110409/planetlab2_cesnet_cz_arizona_owl"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "86", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/planet2_att_nodes_planet-lab_org_arizona_beta", 
+                "disk": "planetlab-workload-traces/20110409/planetlab2_wiwi_hu-berlin_de_purdue_2", 
+                "mem": "planetlab-workload-traces/20110409/planetlab-2_cs_colostate_edu_ uofathens_zoi", 
+                "net": "planetlab-workload-traces/20110409/pl2_cs_yale_edu_umn_net_tools"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "87", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/plab2_engr_sjsu_edu_root", 
+                "disk": "planetlab-workload-traces/20110409/pl2_csl_utoronto_ca_root", 
+                "mem": "planetlab-workload-traces/20110409/planet-lab-node1_netgroup_uniroma2_it_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110409/planet2_att_nodes_planet-lab_org_root"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "88", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/planetlab2_cs_otago_ac_nz_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110409/planetlab-2_cse_ohio-state_edu_root", 
+                "mem": "planetlab-workload-traces/20110409/planetlab4_goto_info_waseda_ac_jp_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110409/planetlab3_hiit_fi_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "89", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/kostis_di_uoa_gr_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110409/planet1_servers_ua_pt_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110409/onelab11_pl_sophia_inria_fr_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110409/planet1_jaist_ac_jp_arizona_beta"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "90", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/planetlab1_cs_uoi_gr_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110409/planet6_cs_ucsb_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110409/planetlab2_aston_ac_uk_rnp_dcc_ufjf", 
+                "net": "planetlab-workload-traces/20110409/pl2_ucs_indiana_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "91", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/planetlab1_upm_ro_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110409/planetlab2_eas_asu_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110409/planetlab2_c3sl_ufpr_br_ uofathens_zoi", 
+                "net": "planetlab-workload-traces/20110409/netapp7_cs_kookmin_ac_kr_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "92", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/planetlab3_eecs_northwestern_edu_princeton_codeen", 
+                "disk": "planetlab-workload-traces/20110409/planet2_att_nodes_planet-lab_org_arizona_owl", 
+                "mem": "planetlab-workload-traces/20110409/planetlab4_wail_wisc_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110409/onelab-1_fhi-fokus_de_ uofathens_zoi"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "93", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/planetlab1_eecs_ucf_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110409/planetlab-1_amst_nodes_planet-lab_org_rnp_dcc_ufjf", 
+                "mem": "planetlab-workload-traces/20110409/planetlab2_exp-math_uni-essen_de_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110409/planetlab-2_cs_auckland_ac_nz_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "94", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/planetlab4_singaren_net_sg_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110409/planetdev04_fm_intel_com_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110409/planetlab1_ecs_vuw_ac_nz_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110409/planetlab1_wiwi_hu-berlin_de_princeton_codeen"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "95", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/pl1_ucs_indiana_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110409/planetlab1_rd_tut_fi_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110409/planetlab-2_elisa_cpsc_ucalgary_ca_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110409/planetlab2_wiwi_hu-berlin_de_ufl_mapreddisc"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "96", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/pnode2_pdcc-ntu_singaren_net_sg_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110409/planetlab3_cs_st-andrews_ac_uk_umn_net_tools", 
+                "mem": "planetlab-workload-traces/20110409/pl2_planet_cs_kent_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110409/planetlab2_cesnet_cz_arizona_beta"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "97", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/pli1-pa-6_hpl_hp_com_ uofathens_zoi", 
+                "disk": "planetlab-workload-traces/20110409/pl2_6test_edu_cn_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110409/pl2_eng_monash_edu_au_ uofathens_zoi", 
+                "net": "planetlab-workload-traces/20110409/planetlab4_eecs_umich_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "98", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/vn4_cse_wustl_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110409/planetlab1_ls_fi_upm_es_root", 
+                "mem": "planetlab-workload-traces/20110409/planetlab-2_cs_uic_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110409/iraplab2_iralab_uni-karlsruhe_de_ uofathens_zoi"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "99", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/planet1_scs_cs_nyu_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110409/pli1-pa-4_hpl_hp_com_ uofathens_zoi", 
+                "mem": "planetlab-workload-traces/20110409/host2_planetlab_informatik_tu-darmstadt_de_tsinghua_xyz", 
+                "net": "planetlab-workload-traces/20110409/planetlab-2_webedu_ccu_edu_tw_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "100", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/planetlab2_aston_ac_uk_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110409/planetlab06_mpi-sws_mpg_de_root", 
+                "mem": "planetlab-workload-traces/20110409/planet2_pnl_nitech_ac_jp_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110409/plgmu5_ite_gmu_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "101", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/planetlab-2_cse_ohio-state_edu_arizona_beta", 
+                "disk": "planetlab-workload-traces/20110409/planetlab-2_cse_ohio-state_edu_howard_p2psip", 
+                "mem": "planetlab-workload-traces/20110409/planetlab2_inf_ethz_ch_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110409/planetlab-1_elisa_cpsc_ucalgary_ca_ uofathens_zoi"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "102", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/pl1-alblf_homeip_net_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110409/pli2-pa-1_hpl_hp_com_ uofathens_zoi", 
+                "mem": "planetlab-workload-traces/20110409/pli2-pa-2_hpl_hp_com_ uofathens_zoi", 
+                "net": "planetlab-workload-traces/20110409/planet11_csc_ncsu_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "103", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/planetlab2_aston_ac_uk_ufmg_p2ptv", 
+                "disk": "planetlab-workload-traces/20110409/planet1_cs_rit_edu_princeton_codeen", 
+                "mem": "planetlab-workload-traces/20110409/miranda_planetlab_cs_umd_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110409/plab2_engr_sjsu_edu_arizona_beta"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "104", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/planetlab-03_vt_nodes_planet-lab_org_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110409/planet1_scs_cs_nyu_edu_princeton_codeen", 
+                "mem": "planetlab-workload-traces/20110409/planetlab3_wail_wisc_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110409/server3_planetlab_iit-tech_net_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "105", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/planetlab3_eecs_umich_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110409/planet2_scs_stanford_edu_root", 
+                "mem": "planetlab-workload-traces/20110409/planetlab-1_pdl_nudt_edu_cn_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110409/planetlab-02_vt_nodes_planet-lab_org_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "106", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/planetlab6_cs_duke_edu_ uofathens_zoi", 
+                "disk": "planetlab-workload-traces/20110409/planetlab1_eas_asu_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110409/planetlab4_n_info_eng_osaka-cu_ac_jp_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110409/planetlab2_georgetown_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "107", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/node2_planetlab_mathcs_emory_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110409/planetlab1_acis_ufl_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110409/planet1_pnl_nitech_ac_jp_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110409/planetlab2_aston_ac_uk_yale_p4p"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "108", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/planetlab1_cs_ucl_ac_uk_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110409/planetlab2_cs_uoi_gr_arizona_owl", 
+                "mem": "planetlab-workload-traces/20110409/planetlab2_cs_pitt_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110409/host3_planetlab_informatik_tu-darmstadt_de_princeton_codeen"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "109", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/ricepl-2_cs_rice_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110409/onelab11_pl_sophia_inria_fr_umn_net_tools", 
+                "mem": "planetlab-workload-traces/20110409/pli1-pa-5_hpl_hp_com_ uofathens_zoi", 
+                "net": "planetlab-workload-traces/20110409/planetlab2_netmedia_gist_ac_kr_umn_net_tools"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "110", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/onelab10_pl_sophia_inria_fr_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110409/planetlab2_byu_edu_princeton_codeen", 
+                "mem": "planetlab-workload-traces/20110409/planetlab2_acis_ufl_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110409/planetlab-3_cmcl_cs_cmu_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "111", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/planetlab-1_cs_auckland_ac_nz_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110409/planet-lab-node2_netgroup_uniroma2_it_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110409/planetlab2_eecs_ucf_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110409/planetlab-1_sjtu_edu_cn_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "112", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/planetlab1_cs_otago_ac_nz_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110409/planet4_cs_ucsb_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110409/planetlab4_williams_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110409/planet-lab1_ufabc_edu_br_root"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "113", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/host2_planetlab_informatik_tu-darmstadt_de_root", 
+                "disk": "planetlab-workload-traces/20110409/plgmu5_ite_gmu_edu_ uofathens_zoi", 
+                "mem": "planetlab-workload-traces/20110409/planetlab-1_cse_ohio-state_edu_arizona_owl", 
+                "net": "planetlab-workload-traces/20110409/planet-lab2_cs_ucr_edu_umn_net_tools"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "114", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/planet02_csc_ncsu_edu_arizona_beta", 
+                "disk": "planetlab-workload-traces/20110409/planetlab2_mnlab_cti_depaul_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110409/planetlab1_csuohio_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110409/planetlab2_aston_ac_uk_irisaple_HEAP"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "115", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/planetlab6_cs_cornell_edu_arizona_beta", 
+                "disk": "planetlab-workload-traces/20110409/planetlab2_ecs_vuw_ac_nz_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110409/iraplab2_iralab_uni-karlsruhe_de_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110409/planetlab-1_amst_nodes_planet-lab_org_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "116", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/planetlab3_eecs_northwestern_edu_root", 
+                "disk": "planetlab-workload-traces/20110409/pads21_cs_nthu_edu_tw_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110409/planetlab3_cs_st-andrews_ac_uk_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110409/planetlab5_williams_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "117", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/planetlab2_cs_umass_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110409/planetlab5_csres_utexas_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110409/ple2_cesnet_cz_ uofathens_zoi", 
+                "net": "planetlab-workload-traces/20110409/planetlab-2_cse_ohio-state_edu_princeton_codeen"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "118", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/planetlab-1_cs_uic_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110409/ricepl-1_cs_rice_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110409/server2_planetlab_iit-tech_net_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110409/planetlab1_williams_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "119", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110409/pl1_rcc_uottawa_ca_google_highground", 
+                "disk": "planetlab-workload-traces/20110409/planet1_att_nodes_planet-lab_org_root", 
+                "mem": "planetlab-workload-traces/20110409/planetlab-1_cse_ohio-state_edu_howard_p2psip", 
+                "net": "planetlab-workload-traces/20110309/planetlab1_cs_stevens-tech_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "120", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110309/planetlab2_cs_stevens-tech_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110309/plab2_cs_ust_hk_ rnp_dcc_ufjf", 
+                "mem": "planetlab-workload-traces/20110309/planetlab-2_iscte_pt_arizona_stork_install", 
+                "net": "planetlab-workload-traces/20110309/planetlab02_just_edu_jo_ rnp_dcc_ufjf"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "121", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110309/plab2_engr_sjsu_edu_root", 
+                "disk": "planetlab-workload-traces/20110309/planetlab2_bgu_ac_il_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110309/planetlab3_mini_pw_edu_pl_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110309/planetlab01_dis_unina_it_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "122", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110309/planetlab1_cs_uoi_gr_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110309/planetlab-05_cs_princeton_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110309/planetlab1_tamu_edu_root", 
+                "net": "planetlab-workload-traces/20110309/planetlab-1_di_fc_ul_pt_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "123", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110309/cs-planetlab4_cs_surrey_sfu_ca_root", 
+                "disk": "planetlab-workload-traces/20110309/planetlab01_cs_washington_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110309/host3_planetlab_informatik_tu-darmstadt_de_arizona_stork_install", 
+                "net": "planetlab-workload-traces/20110309/planet01_hhi_fraunhofer_de_arizona_stork_install"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "124", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110309/planetlab1_win_trlabs_ca_root", 
+                "disk": "planetlab-workload-traces/20110309/planetdev04_fm_intel_com_rnp_dcc_ufjf", 
+                "mem": "planetlab-workload-traces/20110309/host4-plb_loria_fr_upmc_ts", 
+                "net": "planetlab-workload-traces/20110309/metis_mcs_suffolk_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "125", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110309/plgmu1_ite_gmu_edu_root", 
+                "disk": "planetlab-workload-traces/20110309/planetlab02_cs_washington_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110309/chimay_infonet_fundp_ac_be_google_highground", 
+                "net": "planetlab-workload-traces/20110309/planetlab1_eecs_jacobs-university_de_upmc_ts"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "126", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110309/planetlab1_plab_ege_edu_tr_irisaple_HEAP", 
+                "disk": "planetlab-workload-traces/20110309/gschembra3_diit_unict_it_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110309/planetlab1_netmedia_gist_ac_kr_root", 
+                "net": "planetlab-workload-traces/20110309/freedom_informatik_rwth-aachen_de_tsinghua_xyz"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "127", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110309/pl2_csl_utoronto_ca_princeton_codeen", 
+                "disk": "planetlab-workload-traces/20110309/planetlab2_cesnet_cz_upmc_ts", 
+                "mem": "planetlab-workload-traces/20110309/plgmu5_ite_gmu_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110309/planetlab-2_webedu_ccu_edu_tw_ rnp_dcc_ufjf"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "128", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110309/pl1_planet_cs_kent_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110309/planetlab1_eee_hku_hk_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110309/planet2_scs_stanford_edu_root", 
+                "net": "planetlab-workload-traces/20110309/plab2_engr_sjsu_edu_arizona_owl"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "129", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110309/planetdev02_fm_intel_com_rnp_dcc_ufjf", 
+                "disk": "planetlab-workload-traces/20110309/merkur_planetlab_haw-hamburg_de_ yale_p4p", 
+                "mem": "planetlab-workload-traces/20110309/planetlab1_informatik_uni-erlangen_de_tum_i2p", 
+                "net": "planetlab-workload-traces/20110309/planetlab1_cs_colorado_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "130", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110309/planet-lab-node2_netgroup_uniroma2_it_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110309/planet-lab1_ufabc_edu_br_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110309/planetlab-1_sjtu_edu_cn_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110309/planetlab1_csuohio_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "131", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110309/planet2_l3s_uni-hannover_de_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110309/planetlab-04_cs_princeton_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110309/plab2_engr_sjsu_edu_arizona_stork_install", 
+                "net": "planetlab-workload-traces/20110309/vicky_planetlab_ntua_gr_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "132", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110309/planetlab2_hiit_fi_upmc_ts", 
+                "disk": "planetlab-workload-traces/20110309/freedom_informatik_rwth-aachen_de_upmc_ts", 
+                "mem": "planetlab-workload-traces/20110309/mars_planetlab_haw-hamburg_de_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110309/146-179_surfsnel_dsl_internl_net_root"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "133", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110420/planetlab2_eas_asu_edu_princeton_codeen", 
+                "disk": "planetlab-workload-traces/20110420/plgmu4_ite_gmu_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110420/planetlab1_hiit_fi_arizona_nest", 
+                "net": "planetlab-workload-traces/20110420/planet2_att_nodes_planet-lab_org_ufmg_p2ptv"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "134", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110420/planetslug4_cse_ucsc_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110420/planet2_att_nodes_planet-lab_org_root", 
+                "mem": "planetlab-workload-traces/20110420/planetlab1_cs_ucla_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110420/planetlab3_cs_uchicago_edu_arizona_beta"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "135", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110420/planet0_jaist_ac_jp_howard_p2psip", 
+                "disk": "planetlab-workload-traces/20110420/planet1_jaist_ac_jp_arizona_beta", 
+                "mem": "planetlab-workload-traces/20110420/planetlab-4_imperial_ac_uk_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110420/planetlab-2_fokus_fraunhofer_de_princeton_codeen"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "136", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110420/planetlab2_jhu_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110420/planetlab2_eas_asu_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110420/planetlab2_millennium_berkeley_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110420/plab2_nec-labs_com_root"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "137", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110420/planetlab3_eecs_northwestern_edu_princeton_codeen", 
+                "disk": "planetlab-workload-traces/20110420/onelab-1_fhi-fokus_de_ uofathens_zoi", 
+                "mem": "planetlab-workload-traces/20110420/planetlab4_wail_wisc_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110420/planetlab7_cs_duke_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "138", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110420/pl1_rcc_uottawa_ca_ uofathens_zoi", 
+                "disk": "planetlab-workload-traces/20110420/pluto_cs_brown_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110420/plgmu1_ite_gmu_edu_root", 
+                "net": "planetlab-workload-traces/20110420/planetlab3_hiit_fi_tut_overlay2"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "139", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110420/pl2_sos_info_hiroshima-cu_ac_jp_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110420/pli1-pa-6_hpl_hp_com_ uofathens_zoi", 
+                "mem": "planetlab-workload-traces/20110420/planetlab-2_cmcl_cs_cmu_edu_arizona_beta", 
+                "net": "planetlab-workload-traces/20110420/pl2_eng_monash_edu_au_ uofathens_zoi"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "140", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110420/planetlab3_hiit_fi_tut_overlay5", 
+                "disk": "planetlab-workload-traces/20110420/planetlab01_mpi-sws_mpg_de_root", 
+                "mem": "planetlab-workload-traces/20110420/planetlab2_informatik_uni-leipzig_de_ uofathens_zoi", 
+                "net": "planetlab-workload-traces/20110420/iraplab2_iralab_uni-karlsruhe_de_ uofathens_zoi"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "141", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110420/host2_planetlab_informatik_tu-darmstadt_de_tsinghua_xyz", 
+                "disk": "planetlab-workload-traces/20110420/pl1_grid_kiae_ru_arizona_beta", 
+                "mem": "planetlab-workload-traces/20110420/pli1-pa-4_hpl_hp_com_ uofathens_zoi", 
+                "net": "planetlab-workload-traces/20110420/planetlab1_cesnet_cz_root"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "142", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110420/planetlab1_otemachi_wide_ad_jp_princeton_codeen", 
+                "disk": "planetlab-workload-traces/20110420/pli2-pa-2_hpl_hp_com_ uofathens_zoi", 
+                "mem": "planetlab-workload-traces/20110420/planetlab-1_elisa_cpsc_ucalgary_ca_ uofathens_zoi", 
+                "net": "planetlab-workload-traces/20110420/pli2-pa-1_hpl_hp_com_ uofathens_zoi"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "143", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110420/planetlab2_arizona-gigapop_net_princeton_codeen", 
+                "disk": "planetlab-workload-traces/20110420/plab2_engr_sjsu_edu_arizona_beta", 
+                "mem": "planetlab-workload-traces/20110420/planetlab8_millennium_berkeley_edu_root", 
+                "net": "planetlab-workload-traces/20110420/pl1_planet_cs_kent_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "144", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110420/planetlab2_netlab_uky_edu_princeton_codeen", 
+                "disk": "planetlab-workload-traces/20110420/planetlab2_cs_ucla_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110420/planetlab1_hiit_fi_root", 
+                "net": "planetlab-workload-traces/20110420/planetlab2_wiwi_hu-berlin_de_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "145", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110420/planetlab-2_cmcl_cs_cmu_edu_howard_p2psip", 
+                "disk": "planetlab-workload-traces/20110420/planetlab1_eas_asu_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110420/planetlab6_cs_duke_edu_ uofathens_zoi", 
+                "net": "planetlab-workload-traces/20110420/planetlab2_georgetown_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "146", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110420/planet1_att_nodes_planet-lab_org_howard_p2psip", 
+                "disk": "planetlab-workload-traces/20110420/planetlab8_millennium_berkeley_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110420/planetlab2_aston_ac_uk_princeton_codeen", 
+                "net": "planetlab-workload-traces/20110420/planet2_cc_gt_atl_ga_us_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "147", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110420/host3_planetlab_informatik_tu-darmstadt_de_princeton_codeen", 
+                "disk": "planetlab-workload-traces/20110420/pli1-pa-5_hpl_hp_com_ uofathens_zoi", 
+                "mem": "planetlab-workload-traces/20110420/pl1_grid_kiae_ru_princeton_codeen", 
+                "net": "planetlab-workload-traces/20110420/onelab11_pl_sophia_inria_fr_umn_net_tools"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "148", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110420/planetlab3_hiit_fi_tut_overlay3", 
+                "disk": "planetlab-workload-traces/20110420/planetlab4_cnds_jhu_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110420/onelab10_pl_sophia_inria_fr_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110420/pli1-pa-4_hpl_hp_com_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "149", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110420/planetlab2_eecs_ucf_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110420/planet4_cs_ucsb_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110420/planet-lab-node2_netgroup_uniroma2_it_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110420/plab1_engr_sjsu_edu_arizona_owl"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "150", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110420/planetlab3_hiit_fi_tut_overlay1", 
+                "disk": "planetlab-workload-traces/20110420/host2_planetlab_informatik_tu-darmstadt_de_root", 
+                "mem": "planetlab-workload-traces/20110420/planet-lab1_ufabc_edu_br_root", 
+                "net": "planetlab-workload-traces/20110420/plgmu5_ite_gmu_edu_ uofathens_zoi"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "151", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110420/planetlab2_mnlab_cti_depaul_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110420/planetlab1_cs_uit_no_princeton_codeen", 
+                "mem": "planetlab-workload-traces/20110420/planetlab1_informatik_uni-kl_de_root", 
+                "net": "planetlab-workload-traces/20110420/planetlab2_cs_umass_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "152", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110420/planetlab5_csee_usf_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110420/planetlab6_cs_duke_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110420/onelab09_pl_sophia_inria_fr_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110420/planet0_jaist_ac_jp_arizona_owl"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "153", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110420/pl1_rcc_uottawa_ca_google_highground", 
+                "disk": "planetlab-workload-traces/20110412/pl2_eng_monash_edu_au_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110420/planetlab2_arizona-gigapop_net_google_highground", 
+                "net": "planetlab-workload-traces/20110412/planetlab2_cis_upenn_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "154", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/planetlab-2_cse_ohio-state_edu_arizona_owl", 
+                "disk": "planetlab-workload-traces/20110412/planetlab2_cesnet_cz_arizona_owl", 
+                "mem": "planetlab-workload-traces/20110412/planetlab-1_elisa_cpsc_ucalgary_ca_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110412/planetlab-2_cs_colostate_edu_princeton_codeen"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "155", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/planetlab2_uta_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110412/planetlab2_informatik_uni-leipzig_de_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110412/gschembra4_diit_unict_it_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110412/planetlab2_wiwi_hu-berlin_de_purdue_2"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "156", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/planetlab1_millennium_berkeley_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110412/kupl1_ittc_ku_edu_root", 
+                "mem": "planetlab-workload-traces/20110412/planetlab2_poly_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110412/planetlab3_upc_es_princeton_codeen"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "157", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/planetlab-1_cmcl_cs_cmu_edu_arizona_owl", 
+                "disk": "planetlab-workload-traces/20110412/planetlab1_georgetown_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110412/pl2_cs_yale_edu_umn_net_tools", 
+                "net": "planetlab-workload-traces/20110412/planetslug4_cse_ucsc_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "158", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/plab2_engr_sjsu_edu_root", 
+                "disk": "planetlab-workload-traces/20110412/planetlab10_millennium_berkeley_edu_ uofathens_zoi", 
+                "mem": "planetlab-workload-traces/20110412/planetlab1_cs_ucla_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110412/planetlab1_pjwstk_edu_pl_pjwstkple_p2pp"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "159", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/plab1_larc_usp_br_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110412/planetlab3_hiit_fi_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110412/planetlab-4_imperial_ac_uk_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110412/kostis_di_uoa_gr_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "160", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/onelab11_pl_sophia_inria_fr_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110412/planetlab1_eas_asu_edu_princeton_codeen", 
+                "mem": "planetlab-workload-traces/20110412/planetlab1_cs_uoi_gr_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110412/planetlab2_aston_ac_uk_rnp_dcc_ufjf"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "161", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/planetlab-05_cs_princeton_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110412/pl2_ucs_indiana_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110412/planetlab2_elet_polimi_it_google_highground", 
+                "net": "planetlab-workload-traces/20110412/planetlab1_upm_ro_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "162", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/planetlab2_eecs_wsu_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110412/planetlab2_cs_uiuc_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110412/mtuplanetlab1_cs_mtu_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110412/planetlab2_millennium_berkeley_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "163", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/planetlab2_eas_asu_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110412/planetlab05_mpi-sws_mpg_de_root", 
+                "mem": "planetlab-workload-traces/20110412/planetlab3_eecs_northwestern_edu_princeton_codeen", 
+                "net": "planetlab-workload-traces/20110412/planetlab4_wail_wisc_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "164", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/onelab-1_fhi-fokus_de_ uofathens_zoi", 
+                "disk": "planetlab-workload-traces/20110412/planetlab7_cs_duke_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110412/planetlab2_ece_ucdavis_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110412/planetlab-2_cs_auckland_ac_nz_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "165", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/pl1_rcc_uottawa_ca_ uofathens_zoi", 
+                "disk": "planetlab-workload-traces/20110412/metis_mcs_suffolk_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110412/planetlab4_singaren_net_sg_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110412/planetlab16_millennium_berkeley_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "166", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/planetlab10_millennium_berkeley_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110412/planetlab2_netmedia_gist_ac_kr_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110412/planetlab1_rd_tut_fi_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110412/planetlab6_goto_info_waseda_ac_jp_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "167", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/planetlab3_csee_usf_edu_princeton_codeen", 
+                "disk": "planetlab-workload-traces/20110412/planetlab-n1_wand_net_nz_ rnp_dcc_ufjf", 
+                "mem": "planetlab-workload-traces/20110412/planetlab2_wiwi_hu-berlin_de_ufl_mapreddisc", 
+                "net": "planetlab-workload-traces/20110412/pluto_cs_brown_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "168", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/pl2_planet_cs_kent_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110412/pl2_sos_info_hiroshima-cu_ac_jp_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110412/planetlab3_csee_usf_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110412/planetlab01_tkn_tu-berlin_de_ uofathens_zoi"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "169", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/planetlab3_cs_st-andrews_ac_uk_umn_net_tools", 
+                "disk": "planetlab-workload-traces/20110412/pli1-pa-6_hpl_hp_com_ uofathens_zoi", 
+                "mem": "planetlab-workload-traces/20110412/orbpl1_rutgers_edu_princeton_codeen", 
+                "net": "planetlab-workload-traces/20110412/osiris_planetlab_cs_umd_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "170", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/gschembra3_diit_unict_it_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110412/planetlab01_tkn_tu-berlin_de_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110412/planetlab-2_cs_uic_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110412/planetlab1_ls_fi_upm_es_root"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "171", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/iraplab2_iralab_uni-karlsruhe_de_ uofathens_zoi", 
+                "disk": "planetlab-workload-traces/20110412/pli1-pa-4_hpl_hp_com_ uofathens_zoi", 
+                "mem": "planetlab-workload-traces/20110412/host2_planetlab_informatik_tu-darmstadt_de_tsinghua_xyz", 
+                "net": "planetlab-workload-traces/20110412/node2_planetlab_albany_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "172", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/ple02_fc_univie_ac_at_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110412/planetlab06_mpi-sws_mpg_de_root", 
+                "mem": "planetlab-workload-traces/20110412/planetlabone_ccs_neu_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110412/planetlab1_cesnet_cz_root"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "173", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/planetlab-1_elisa_cpsc_ucalgary_ca_ uofathens_zoi", 
+                "disk": "planetlab-workload-traces/20110412/pli2-pa-2_hpl_hp_com_ uofathens_zoi", 
+                "mem": "planetlab-workload-traces/20110412/pl1-alblf_homeip_net_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110412/pli2-pa-1_hpl_hp_com_ uofathens_zoi"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "174", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/adrastea_mcs_suffolk_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110412/planetlab-1_cmcl_cs_cmu_edu_howard_p2psip", 
+                "mem": "planetlab-workload-traces/20110412/planetlab2_cs_uoregon_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110412/planetlab2_hiit_fi_arizona_owl"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "175", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/pli2-pa-3_hpl_hp_com_root", 
+                "disk": "planetlab-workload-traces/20110412/planetlab-2_ssvl_kth_se_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110412/planetlab4_cs_uiuc_edu_princeton_codeen", 
+                "net": "planetlab-workload-traces/20110412/planetlab3_wail_wisc_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "176", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/planet1_scs_cs_nyu_edu_princeton_codeen", 
+                "disk": "planetlab-workload-traces/20110412/server3_planetlab_iit-tech_net_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110412/ple2_dmcs_p_lodz_pl_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110412/pl1_planet_cs_kent_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "177", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/planetlab3_eecs_umich_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110412/planetlab-02_vt_nodes_planet-lab_org_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110412/planetlab-1_calpoly-netlab_net_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110412/planetlab6_cs_duke_edu_ uofathens_zoi"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "178", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/pl2_cs_yale_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110412/planetlab-2_cs_uh_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110412/planetlab1_eas_asu_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110412/planetlab2_millennium_berkeley_edu_princeton_codeen"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "179", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/planetlab1_acis_ufl_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110412/planetlab2_cs_pitt_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110412/planetlab2_aston_ac_uk_yale_p4p", 
+                "net": "planetlab-workload-traces/20110412/pnode1_pdcc-ntu_singaren_net_sg_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "180", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/planet1_jaist_ac_jp_arizona_owl", 
+                "disk": "planetlab-workload-traces/20110412/onelab11_pl_sophia_inria_fr_umn_net_tools", 
+                "mem": "planetlab-workload-traces/20110412/pli1-pa-5_hpl_hp_com_ uofathens_zoi", 
+                "net": "planetlab-workload-traces/20110412/planetlab-01_vt_nodes_planet-lab_org_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "181", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/planetlab2_netmedia_gist_ac_kr_umn_net_tools", 
+                "disk": "planetlab-workload-traces/20110412/onelab10_pl_sophia_inria_fr_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110412/pl2-alblf_homeip_net_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110412/planetlab2_acis_ufl_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "182", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/chimay_infonet_fundp_ac_be_ uofathens_zoi", 
+                "disk": "planetlab-workload-traces/20110412/planetlab-1_cs_auckland_ac_nz_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110412/ple1_tu_koszalin_pl_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110412/planetlab2_eecs_ucf_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "183", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/planetlab-1_sjtu_edu_cn_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110412/planet3_prakinf_tu-ilmenau_de_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110412/planetlab3_postel_org_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110412/host2_planetlab_informatik_tu-darmstadt_de_root"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "184", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/planetlab1_lublin_rd_tp_pl_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110412/planetlab5_goto_info_waseda_ac_jp_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110412/planet-lab2_cs_ucr_edu_umn_net_tools", 
+                "net": "planetlab-workload-traces/20110412/planetlab2_mnlab_cti_depaul_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "185", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/planet3_cs_ucsb_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110412/pl1_sos_info_hiroshima-cu_ac_jp_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110412/planetlab2_aston_ac_uk_irisaple_HEAP", 
+                "net": "planetlab-workload-traces/20110412/planetlab-um00_di_uminho_pt_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "186", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/planetlab1_cs_vu_nl_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110412/planetlab3_cs_st-andrews_ac_uk_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110412/planetlab3_eecs_northwestern_edu_root", 
+                "net": "planetlab-workload-traces/20110412/planetlab2_cesnet_cz_howard_p2psip"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "187", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/planetlab-wifi-01_ipv6_lip6_fr_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110412/onelab09_pl_sophia_inria_fr_ cwru_DNS", 
+                "mem": "planetlab-workload-traces/20110412/pads21_cs_nthu_edu_tw_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110412/planetlab1_exp-math_uni-essen_de_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "188", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/ple2_cesnet_cz_ uofathens_zoi", 
+                "disk": "planetlab-workload-traces/20110412/planetlab1_utt_fr_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110412/planetlab-04_cs_princeton_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110412/planetlab-1_cs_uic_edu_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "189", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/planetlab1_exp-math_uni-essen_de_root", 
+                "disk": "planetlab-workload-traces/20110412/planetlab3_millennium_berkeley_edu_princeton_codeen", 
+                "mem": "planetlab-workload-traces/20110412/planetlab2_rd_tut_fi_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110412/planetlab2_tlm_unavarra_es_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "190", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/planetlab-2_cmcl_cs_cmu_edu_root", 
+                "disk": "planetlab-workload-traces/20110412/napa2_tele_pw_edu_pl_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110412/planetlab04_mpi-sws_mpg_de_root", 
+                "net": "planetlab-workload-traces/20110412/pl1_rcc_uottawa_ca_google_highground"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "191", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110412/planetslug5_cse_ucsc_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110403/plnode-04_gpolab_bbn_com_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110403/pl2_eng_monash_edu_au_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110403/planet1_inf_tu-dresden_de_princeton_codeen"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "192", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110403/planetlab2_cis_upenn_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110403/planetlab-2_cse_ohio-state_edu_arizona_owl", 
+                "mem": "planetlab-workload-traces/20110403/planetlab13_millennium_berkeley_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110403/planetlab-1_elisa_cpsc_ucalgary_ca_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "193", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110403/gschembra4_diit_unict_it_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110403/planetlab2_wiwi_hu-berlin_de_purdue_2", 
+                "mem": "planetlab-workload-traces/20110403/planetlab-2_cs_colostate_edu_ uofathens_zoi", 
+                "net": "planetlab-workload-traces/20110403/vn4_cse_wustl_edu_princeton_codeen"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "194", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110403/kupl1_ittc_ku_edu_root", 
+                "disk": "planetlab-workload-traces/20110403/planetlab-2_cmcl_cs_cmu_edu_arizona_owl", 
+                "mem": "planetlab-workload-traces/20110403/planetlab13_millennium_berkeley_edu_ root", 
+                "net": "planetlab-workload-traces/20110403/csplanetlab4_kaist_ac_kr_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "195", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110403/pl2_cs_yale_edu_umn_net_tools", 
+                "disk": "planetlab-workload-traces/20110403/aladdin_planetlab_extranet_uni-passau_de_ uofathens_zoi", 
+                "mem": "planetlab-workload-traces/20110403/vn5_cse_wustl_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110403/plab2_engr_sjsu_edu_root"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "196", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110403/planetlab1_mnlab_cti_depaul_edu_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110403/plgmu2_ite_gmu_edu_root", 
+                "mem": "planetlab-workload-traces/20110403/planetlab1_cs_ucla_edu_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110403/planetlab-n1_wand_net_nz_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "197", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110403/planetlab2_cs_otago_ac_nz_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110403/planetlab2_een_orst_edu_root", 
+                "mem": "planetlab-workload-traces/20110403/planetlab10_millennium_berkeley_edu_ uofathens_zoi", 
+                "net": "planetlab-workload-traces/20110403/node-1_mcgillplanetlab_org_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "198", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110403/peace_informatik_rwth-aachen_de_tsinghua_xyz", 
+                "disk": "planetlab-workload-traces/20110403/planetlab-2_cse_ohio-state_edu_root", 
+                "mem": "planetlab-workload-traces/20110403/planetlab03_cnds_unibe_ch_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110403/planetlab3_hiit_fi_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "199", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110403/planetlab4_hiit_fi_uw_oneswarm", 
+                "disk": "planetlab-workload-traces/20110403/planetlab2_c3sl_ufpr_br_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110403/kostis_di_uoa_gr_uw_oneswarm", 
+                "net": "planetlab-workload-traces/20110403/planet1_servers_ua_pt_uw_oneswarm"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "200", 
+            "trace": {
+                "cpu": "planetlab-workload-traces/20110403/planetlab1_eas_asu_edu_princeton_codeen", 
+                "disk": "planetlab-workload-traces/20110403/planetlab-05_cs_princeton_edu_uw_oneswarm", 
+                "mem": "planetlab-workload-traces/20110403/planetlab2_aston_ac_uk_rnp_dcc_ufjf", 
+                "net": "planetlab-workload-traces/20110403/pierre_iet_unipi_it_gt_pithia"
+            }
+        }
+    ]
+}
