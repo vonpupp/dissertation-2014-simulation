@@ -1,0 +1,164 @@
+{
+    "vms": [
+        {
+            "flavor": "small", 
+            "id": "1", 
+            "trace": {
+                "cpu": "google-workload-traces/task_usage-job_id_5501666014-task_index_0_cpu.txt", 
+                "disk": "google-workload-traces/task_usage-job_id_5501666014-task_index_0_disk.txt", 
+                "mem": "google-workload-traces/task_usage-job_id_5501666014-task_index_0_mem.txt", 
+                "net": "google-workload-traces/task_usage-job_id_5501666014-task_index_0_net.txt"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "2", 
+            "trace": {
+                "cpu": "google-workload-traces/task_usage-job_id_6184860354-task_index_110_cpu.txt", 
+                "disk": "google-workload-traces/task_usage-job_id_6184860354-task_index_110_disk.txt", 
+                "mem": "google-workload-traces/task_usage-job_id_6184860354-task_index_110_mem.txt", 
+                "net": "google-workload-traces/task_usage-job_id_6184860354-task_index_110_net.txt"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "3", 
+            "trace": {
+                "cpu": "google-workload-traces/task_usage-job_id_6184860354-task_index_238_cpu.txt", 
+                "disk": "google-workload-traces/task_usage-job_id_6184860354-task_index_238_disk.txt", 
+                "mem": "google-workload-traces/task_usage-job_id_6184860354-task_index_238_mem.txt", 
+                "net": "google-workload-traces/task_usage-job_id_6184860354-task_index_238_net.txt"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "4", 
+            "trace": {
+                "cpu": "google-workload-traces/task_usage-job_id_6184860354-task_index_283_cpu.txt", 
+                "disk": "google-workload-traces/task_usage-job_id_6184860354-task_index_283_disk.txt", 
+                "mem": "google-workload-traces/task_usage-job_id_6184860354-task_index_283_mem.txt", 
+                "net": "google-workload-traces/task_usage-job_id_6184860354-task_index_283_net.txt"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "5", 
+            "trace": {
+                "cpu": "google-workload-traces/task_usage-job_id_6234680562-task_index_1_cpu.txt", 
+                "disk": "google-workload-traces/task_usage-job_id_6234680562-task_index_1_disk.txt", 
+                "mem": "google-workload-traces/task_usage-job_id_6234680562-task_index_1_mem.txt", 
+                "net": "google-workload-traces/task_usage-job_id_6234680562-task_index_1_net.txt"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "6", 
+            "trace": {
+                "cpu": "google-workload-traces/task_usage-job_id_6234680562-task_index_10_cpu.txt", 
+                "disk": "google-workload-traces/task_usage-job_id_6234680562-task_index_10_disk.txt", 
+                "mem": "google-workload-traces/task_usage-job_id_6234680562-task_index_10_mem.txt", 
+                "net": "google-workload-traces/task_usage-job_id_6234680562-task_index_10_net.txt"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "7", 
+            "trace": {
+                "cpu": "google-workload-traces/task_usage-job_id_6234680562-task_index_13_cpu.txt", 
+                "disk": "google-workload-traces/task_usage-job_id_6234680562-task_index_13_disk.txt", 
+                "mem": "google-workload-traces/task_usage-job_id_6234680562-task_index_13_mem.txt", 
+                "net": "google-workload-traces/task_usage-job_id_6234680562-task_index_13_net.txt"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "8", 
+            "trace": {
+                "cpu": "google-workload-traces/task_usage-job_id_6234680562-task_index_16_cpu.txt", 
+                "disk": "google-workload-traces/task_usage-job_id_6234680562-task_index_16_disk.txt", 
+                "mem": "google-workload-traces/task_usage-job_id_6234680562-task_index_16_mem.txt", 
+                "net": "google-workload-traces/task_usage-job_id_6234680562-task_index_16_net.txt"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "9", 
+            "trace": {
+                "cpu": "google-workload-traces/task_usage-job_id_6234680562-task_index_22_cpu.txt", 
+                "disk": "google-workload-traces/task_usage-job_id_6234680562-task_index_22_disk.txt", 
+                "mem": "google-workload-traces/task_usage-job_id_6234680562-task_index_22_mem.txt", 
+                "net": "google-workload-traces/task_usage-job_id_6234680562-task_index_22_net.txt"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "10", 
+            "trace": {
+                "cpu": "google-workload-traces/task_usage-job_id_6234680562-task_index_25_cpu.txt", 
+                "disk": "google-workload-traces/task_usage-job_id_6234680562-task_index_25_disk.txt", 
+                "mem": "google-workload-traces/task_usage-job_id_6234680562-task_index_25_mem.txt", 
+                "net": "google-workload-traces/task_usage-job_id_6234680562-task_index_25_net.txt"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "11", 
+            "trace": {
+                "cpu": "google-workload-traces/task_usage-job_id_6234680562-task_index_26_cpu.txt", 
+                "disk": "google-workload-traces/task_usage-job_id_6234680562-task_index_26_disk.txt", 
+                "mem": "google-workload-traces/task_usage-job_id_6234680562-task_index_26_mem.txt", 
+                "net": "google-workload-traces/task_usage-job_id_6234680562-task_index_26_net.txt"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "12", 
+            "trace": {
+                "cpu": "google-workload-traces/task_usage-job_id_6234680562-task_index_28_cpu.txt", 
+                "disk": "google-workload-traces/task_usage-job_id_6234680562-task_index_28_disk.txt", 
+                "mem": "google-workload-traces/task_usage-job_id_6234680562-task_index_28_mem.txt", 
+                "net": "google-workload-traces/task_usage-job_id_6234680562-task_index_28_net.txt"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "13", 
+            "trace": {
+                "cpu": "google-workload-traces/task_usage-job_id_6234680562-task_index_29_cpu.txt", 
+                "disk": "google-workload-traces/task_usage-job_id_6234680562-task_index_29_disk.txt", 
+                "mem": "google-workload-traces/task_usage-job_id_6234680562-task_index_29_mem.txt", 
+                "net": "google-workload-traces/task_usage-job_id_6234680562-task_index_29_net.txt"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "14", 
+            "trace": {
+                "cpu": "google-workload-traces/task_usage-job_id_6243111979-task_index_0_cpu.txt", 
+                "disk": "google-workload-traces/task_usage-job_id_6243111979-task_index_0_disk.txt", 
+                "mem": "google-workload-traces/task_usage-job_id_6243111979-task_index_0_mem.txt", 
+                "net": "google-workload-traces/task_usage-job_id_6243111979-task_index_0_net.txt"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "15", 
+            "trace": {
+                "cpu": "google-workload-traces/task_usage-job_id_6256516779-task_index_0_cpu.txt", 
+                "disk": "google-workload-traces/task_usage-job_id_6256516779-task_index_0_disk.txt", 
+                "mem": "google-workload-traces/task_usage-job_id_6256516779-task_index_0_mem.txt", 
+                "net": "google-workload-traces/task_usage-job_id_6256516779-task_index_0_net.txt"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "16", 
+            "trace": {
+                "cpu": "google-workload-traces/task_usage-job_id_6256640932-task_index_12_cpu.txt", 
+                "disk": "google-workload-traces/task_usage-job_id_6256640932-task_index_12_disk.txt", 
+                "mem": "google-workload-traces/task_usage-job_id_6256640932-task_index_12_mem.txt", 
+                "net": "google-workload-traces/task_usage-job_id_6256640932-task_index_12_net.txt"
+            }
+        }
+    ]
+}
