@@ -70,7 +70,7 @@ class VMsGenerator():
 
         #self.remove_prefix = "/home/vagrant/research/static-simulation/tools-traces/../"
         self.vmcount = int(self.get_default_arg(128, args.vmcount))
-        filtered_file = '../../google-workload-traces/filtered-cpu-29-40.csv'
+        filtered_file = '../../google-workload-traces/filtered.csv'
         self.infile = self.get_default_arg(filtered_file, args.infile)
         self.outfile = self.get_default_arg('vms.json', args.outfile)
 
@@ -95,6 +95,8 @@ class VMsGenerator():
             vm['flavor'] = 'small'
             vm['trace'] = trace
             vms += [vm]
+            if id == self.vmcount:
+                break
             id += 1
         data = {}
         data['vms'] = vms
