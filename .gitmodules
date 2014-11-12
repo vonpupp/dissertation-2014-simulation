@@ -4,4 +4,4 @@
 	url = git@bitbucket.org:vonpupp/pyCloudSim.git
 [submodule "planetlab-workload-traces"]
 	path = planetlab-workload-traces
-	url = git@github.com:vonpupp/planetlab-workload-traces.git
+	url = https://github.com/vonpupp/planetlab-workload-traces.git
