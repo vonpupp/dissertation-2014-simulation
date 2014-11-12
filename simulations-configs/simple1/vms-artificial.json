@@ -1,0 +1,114 @@
+{
+    "vms": [
+        {
+            "flavor": "small", 
+            "id": "1", 
+            "trace": {
+                "cpu": "simulations-configs/simple1/artificial/30", 
+                "disk": "simulations-configs/simple1/artificial/d1",
+                "mem": "simulations-configs/simple1/artificial/8",
+                "net": "simulations-configs/simple1/artificial/0"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "2", 
+            "trace": {
+                "cpu": "simulations-configs/simple1/artificial/30", 
+                "disk": "simulations-configs/simple1/artificial/d2",
+                "mem": "simulations-configs/simple1/artificial/8",
+                "net": "simulations-configs/simple1/artificial/0"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "3", 
+            "trace": {
+                "cpu": "simulations-configs/simple1/artificial/20", 
+                "disk": "simulations-configs/simple1/artificial/d3",
+                "mem": "simulations-configs/simple1/artificial/8",
+                "net": "simulations-configs/simple1/artificial/0"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "4", 
+            "trace": {
+                "cpu": "simulations-configs/simple1/artificial/20", 
+                "disk": "simulations-configs/simple1/artificial/d4",
+                "mem": "simulations-configs/simple1/artificial/5",
+                "net": "simulations-configs/simple1/artificial/0"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "5", 
+            "trace": {
+                "cpu": "simulations-configs/simple1/artificial/10", 
+                "disk": "simulations-configs/simple1/artificial/d5",
+                "mem": "simulations-configs/simple1/artificial/5",
+                "net": "simulations-configs/simple1/artificial/0"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "6", 
+            "trace": {
+                "cpu": "simulations-configs/simple1/artificial/30", 
+                "disk": "simulations-configs/simple1/artificial/d3",
+                "mem": "simulations-configs/simple1/artificial/8",
+                "net": "simulations-configs/simple1/artificial/0"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "7", 
+            "trace": {
+                "cpu": "simulations-configs/simple1/artificial/30", 
+                "disk": "simulations-configs/simple1/artificial/d1",
+                "mem": "simulations-configs/simple1/artificial/10",
+                "net": "simulations-configs/simple1/artificial/0"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "8", 
+            "trace": {
+                "cpu": "simulations-configs/simple1/artificial/20", 
+                "disk": "simulations-configs/simple1/artificial/d4",
+                "mem": "simulations-configs/simple1/artificial/10",
+                "net": "simulations-configs/simple1/artificial/0"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "9", 
+            "trace": {
+                "cpu": "simulations-configs/simple1/artificial/10", 
+                "disk": "simulations-configs/simple1/artificial/d2",
+                "mem": "simulations-configs/simple1/artificial/10",
+                "net": "simulations-configs/simple1/artificial/0"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "10", 
+            "trace": {
+                "cpu": "simulations-configs/simple1/artificial/10", 
+                "disk": "simulations-configs/simple1/artificial/d5",
+                "mem": "simulations-configs/simple1/artificial/5",
+                "net": "simulations-configs/simple1/artificial/0"
+            }
+        }, 
+        {
+            "flavor": "small", 
+            "id": "11", 
+            "trace": {
+                "cpu": "simulations-configs/simple1/artificial/10", 
+                "disk": "simulations-configs/simple1/artificial/d3",
+                "mem": "simulations-configs/simple1/artificial/5",
+                "net": "simulations-configs/simple1/artificial/0"
+            }
+        }
+    ]
+}
