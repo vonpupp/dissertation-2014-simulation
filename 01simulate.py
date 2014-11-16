@@ -30,11 +30,11 @@ import time
 
 class Simulate():
     def __init__(self):
-        self.seu          = 1
-        self.sksp         = 1
-        self.skspmem      = 1
-        self.sec          = 1
-        self.secnet       = 1
+        self.seu          = scenariosvars.seu
+        self.sksp         = scenariosvars.sksp
+        self.skspmem      = scenariosvars.skspmem
+        self.sec          = scenariosvars.sec
+        self.secnet       = scenariosvars.secnet
         # Not used
         self.skspnetgraph = 0
         self.secnetgraph  = 0

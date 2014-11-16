@@ -22,28 +22,22 @@ __version__ = "0.2"
 __author__ = "Albert De La Fuente Vigliotti"
 
 
-# These variables are used within both scripts with relative paths references!
+import os
 
-#trace_scenarios = [
-#    'hybrid1',
-#    'hybrid2',
-#    'hybrid3',
-#    'hybrid4',
-#    'hybrid5',
-#    'hybrid6',
-#    'hybrid7',
-#    '../planetlab-workload-traces/20110409/146-179_surfsnel_dsl_internl_net_root',
-#    '../planetlab-workload-traces/20110409/host4-plb_loria_fr_uw_oneswarm',
-#    '../planetlab-workload-traces/20110420/plgmu4_ite_gmu_edu_rnp_dcc_ufjf',
 
-#    '../planetlab-workload-traces/20110309/planetlab1_fct_ualg_pt_root',
-#    '../planetlab-workload-traces/20110325/host3-plb_loria_fr_inria_omftest',
-#    '../planetlab-workload-traces/20110412/planetlab1_georgetown_edu_nus_proxaudio',
+def eval_os_var(default_value, var_name):
+    result = default_value
+    value = os.environ.get(var_name)
+    if value is not None:
+        result = eval(value)
+    return result
 
-#    '../planetlab-workload-traces/20110306/planetlab1_dojima_wide_ad_jp_princeton_contdist',
-#    '../planetlab-workload-traces/planetlab-selected/planetlab-20110409-filtered_planetlab1_s3_kth_se_sics_peerialism',
-#    '../planetlab-workload-traces/20110322/planetlab-wifi-01_ipv6_lip6_fr_inria_omftest'
-#]
+def str_os_var(default_value, var_name):
+    result = default_value
+    value = os.environ.get(var_name)
+    if value is not None:
+        result = value.lower()
+    return result
 
 algorithm_scenarios = [
     'EnergyUnawareStrategyPlacement',
@@ -54,14 +48,36 @@ algorithm_scenarios = [
 ]
 
 # Setup the scenarios
-host_scenarios = [35]
-simulation_scenarios = range(1, 2)
+host_scenarios = [100]
+simulation_scenarios = range(1, 31)
 vms_start = 16
 vms_stop = 144
 vms_step = 16
 
-#host_scenarios = range(10, 20, 10)
-#simulation_scenarios = range(1, 2)
-#vms_start = 16
-#vms_stop = 32
-#vms_step = 16
+
+# Variable override with the OS variables
+host_scenarios = eval_os_var(host_scenarios, 'HOST_SCENARIOS')
+simulation_scenarios = eval_os_var(simulation_scenarios, 'SIMULATION_SCENARIOS')
+vms_start = eval_os_var(vms_start, 'VMS_START')
+vms_stop  = eval_os_var(vms_stop, 'VMS_STOP')
+vms_step  = eval_os_var(vms_step, 'VMS_STEP')
+
+seu = str_os_var(False, 'SIMULATE_EU')
+if seu.lower() == 'true':
+    algorithm_scenarios += ['EnergyUnawareStrategyPlacement']
+
+sksp = str_os_var(False, 'SIMULATE_KSP')
+if sksp.lower() == 'true':
+    algorithm_scenarios += ['OpenOptStrategyPlacement']
+
+sec = str_os_var(False, 'SIMULATE_EC')
+if sec.lower() == 'true':
+    algorithm_scenarios += ['EvolutionaryComputationStrategyPlacement']
+
+skspmem = str_os_var(False, 'SIMULATE_KSP_MEM')
+if skspmem.lower() == 'true':
+    algorithm_scenarios += ['OpenOptStrategyPlacementMem']
+
+secnet = str_os_var(False, 'SIMULATE_EC_NET')
+if secnet.lower() == 'true':
+    algorithm_scenarios += ['EvolutionaryComputationStrategyPlacementNet']
