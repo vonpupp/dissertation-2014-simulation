@@ -97,6 +97,7 @@ if __name__ == "__main__":
         p.set_data(per_algorithm_summary)
         #p.plot_all_algorithm_comparison(host, trace)
         p.plot_all_algorithm_comparison(host)
+#        import ipdb; ipdb.set_trace() # BREAKPOINT
         p.plot_all_confidence_interval_comparison(host)
 
         for vms in range(vms_start, vms_stop, vms_step):
