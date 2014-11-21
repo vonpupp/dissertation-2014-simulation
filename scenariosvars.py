@@ -32,11 +32,18 @@ def eval_os_var(default_value, var_name):
         result = eval(value)
     return result
 
-def str_os_var(default_value, var_name):
+#def str_os_var(default_value, var_name):
+#    result = default_value
+#    value = os.environ.get(var_name)
+#    if value is not None:
+#        result = value.lower()
+#    return result
+
+def bool_os_var(default_value, var_name):
     result = default_value
     value = os.environ.get(var_name)
     if value is not None:
-        result = value.lower()
+        result = value.lower() == 'true'
     return result
 
 algorithm_scenarios = [
@@ -62,22 +69,22 @@ vms_start = eval_os_var(vms_start, 'VMS_START')
 vms_stop  = eval_os_var(vms_stop, 'VMS_STOP')
 vms_step  = eval_os_var(vms_step, 'VMS_STEP')
 
-seu = str_os_var(False, 'SIMULATE_EU')
-if seu.lower() == 'true':
+seu = bool_os_var(False, 'SIMULATE_EU')
+if seu:
     algorithm_scenarios += ['EnergyUnawareStrategyPlacement']
 
-sksp = str_os_var(False, 'SIMULATE_KSP')
-if sksp.lower() == 'true':
+sksp = bool_os_var(False, 'SIMULATE_KSP')
+if sksp:
     algorithm_scenarios += ['OpenOptStrategyPlacement']
 
-sec = str_os_var(False, 'SIMULATE_EC')
-if sec.lower() == 'true':
+sec = bool_os_var(False, 'SIMULATE_EC')
+if sec:
     algorithm_scenarios += ['EvolutionaryComputationStrategyPlacement']
 
-skspmem = str_os_var(False, 'SIMULATE_KSP_MEM')
-if skspmem.lower() == 'true':
+skspmem = bool_os_var(False, 'SIMULATE_KSP_MEM')
+if skspmem:
     algorithm_scenarios += ['OpenOptStrategyPlacementMem']
 
-secnet = str_os_var(False, 'SIMULATE_EC_NET')
-if secnet.lower() == 'true':
+secnet = bool_os_var(False, 'SIMULATE_EC_NET')
+if secnet:
     algorithm_scenarios += ['EvolutionaryComputationStrategyPlacementNet']
